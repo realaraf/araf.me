@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-bebas-neue: "Bebas Neue", sans-serif;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));

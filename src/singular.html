@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">  
+  <link href="./output.css" rel="stylesheet">
+  <title>John - John Doe</title>
+  <link rel="icon" type="image/x-icon" href="https://drawne.com/wp-content/uploads/2023/03/andy-feliciotti-vermont-2019-760x760.jpg">
+</head>
+<body class="max-w-[800px] mx-5 sm:mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
+  <header class="flex items-center justify-between py-4">
+    <!-- Left: Name -->
+    <a href="index.html"><h1 class="text-[min(10vw,32px)] font-bold font-bebas-neue flex items-center" title="John Doe"><img src="https://drawne.com/wp-content/uploads/2023/03/andy-feliciotti-vermont-2019-760x760.jpg" class="w-10 h-10 rounded-lg mr-2" alt=""> <span class="pt-1.5 tracking-wide ps-1">John</span></h1></a>
+
+    <!-- Right: Menu + Toggle -->
+    <div class="flex items-center space-x-3">
+      <nav class="flex space-x-2 text-base">
+        <!-- <a href="#" class="hover:underline">Home</a> -->
+        <a href="blog.html" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600">Blog</a>
+      </nav>
+
+      <!-- Dark/Light Switch -->
+      <!-- id="toggleDark" -->
+      <button class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition hover:cursor-pointer" onclick="toggleTheme()">
+        <!-- Sun Icon (for dark mode) -->
+        <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            d="M12 3v2m0 14v2m9-9h-2M5 12H3
+               m15.364 6.364l-1.414-1.414M7.05 7.05 5.636 5.636
+               m12.728 0-1.414 1.414M7.05 16.95l-1.414 1.414
+               M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+        </svg>
+      
+        <!-- Moon Icon (for light mode) -->
+        <svg id="moonIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1111.21 3
+                   7 7 0 0021 12.79z"/>
+        </svg>
+      </button> 
+    </div>
+  </header>
+
+  <h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide">Assumenda ex sit repudiandae quidem optio corrupti et rerum quisquam voluptates minima eligendi blanditiis</h1>
+  <img src="https://fsa2-assets.imgix.net/assets/UNIV/USU/cyber/iStock-1332378618.jpg" alt="">
+  <p class="my-4 text-lg/8 font-inter">Hey! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ex sit repudiandae, quidem optio corrupti et rerum quisquam voluptates minima culpa eligendi blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit autem quibusdam adipisci quos, iste placeat! Autem <a href="#" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">eveniet</a> totam aliquam dicta doloribus. Laudantium!</p>
+  <script src="https://gist.github.com/ArafDotMe/b4f031032c3efa0489bb83954ce29ebe.js"></script>
+  <p class="mt-4 text-lg/8 font-inter">Hey! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ex sit repudiandae, quidem optio corrupti et rerum quisquam voluptates minima culpa eligendi blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit autem quibusdam adipisci quos, iste placeat! Autem <a href="#" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">eveniet</a> totam aliquam dicta doloribus. Laudantium!</p>
+
+  <footer>
+    <p class="mt-10 mb-5 font-inter text-sm text-gray-500 dark:text-gray-400">© 2025 John Doe. Built with ❤️ using <a href="https://tailwindcss.com" class="sm:border-b-gray-200 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600">Tailwind CSS</a>, <a href="https://react.dev/" class="sm:border-b-gray-200 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600">React</a>, <a href="https://wp.org/" class="sm:border-b-gray-200 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600">WordPress</a>.</p>
+  </footer>
+
+  <!-- <button onclick="toggleTheme()" 
+  class="p-2 rounded bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100">
+  Toggle Dark
+  </button> -->  
+
+  <!-- <script>
+    const toggleDark = document.getElementById("toggleDark");
+    const sunIcon = document.getElementById("sunIcon");
+    const moonIcon = document.getElementById("moonIcon");
+
+    // Set initial state based on system preference
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add("dark");
+      sunIcon.classList.remove("hidden");
+      moonIcon.classList.add("hidden");
+    } else {
+      document.documentElement.classList.remove("dark");
+      sunIcon.classList.add("hidden");
+      moonIcon.classList.remove("hidden");
+    }
+
+    // Toggle on click
+    toggleDark.addEventListener("click", () => {
+      const isDark = document.documentElement.classList.toggle("dark");
+      if (isDark) {
+        sunIcon.classList.remove("hidden");
+        moonIcon.classList.add("hidden");
+      } else {
+        sunIcon.classList.add("hidden");
+        moonIcon.classList.remove("hidden");
+      }
+    });
+  </script> -->
+
+  <script>
+    const sunIcon = document.getElementById("sunIcon");
+    const moonIcon = document.getElementById("moonIcon");
+  
+    // Load saved theme on page load
+    if (localStorage.getItem("theme") === "dark" || 
+       (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+      sunIcon.classList.remove("hidden");
+      moonIcon.classList.add("hidden");
+    } else {
+      document.documentElement.classList.remove("dark");
+      sunIcon.classList.add("hidden");
+      moonIcon.classList.remove("hidden");
+    }
+  
+    function toggleTheme() {
+      if (document.documentElement.classList.contains("dark")) {
+        document.documentElement.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+        sunIcon.classList.add("hidden");
+        moonIcon.classList.remove("hidden");
+      } else {
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+        sunIcon.classList.remove("hidden");
+        moonIcon.classList.add("hidden");
+      }
+    }
+  </script>
+</body>
+</html>
