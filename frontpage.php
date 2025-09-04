@@ -6,8 +6,8 @@
 <h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide">Shopify & WordPress Developer</h1>
   <p class="mt-4 text-lg sm:text-2xl font-inter leading-9">Hey! I'm Md. Araful Karim (Araf). I develope high-quality Shopify ecommerce and WordPress sites. All of my open source works are publicly available on <a href="https://github.com/realaraf" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">GitHub</a>. You can connect/contact me on <a href="https://www.linkedin.com/in/realaraf/" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">LinkedIn</a> or <a href="https://calendly.com/meet_araf/30min" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">schedule a meeting</a> for project discussion.</p>
   
-  <div class="mt-12 pt-6 pb-12 px-12 text-center border-2 border-dashed border-gray-200 rounded-[6px] bg-gray-50 dark:bg-gray-800 dark:border-gray-600">
-    <p class="mt-4 text-lg sm:text-2xl font-inter leading-9">You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p>
+  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-11 px-3 sm:px-12 text-center border-2 border-dashed border-gray-200 rounded-[6px] bg-gray-50 dark:bg-gray-800 dark:border-gray-600">
+    <p class="mt-0 sm:mt-4 text-lg sm:text-2xl font-inter leading-9">You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p>
     <iframe src="https://embeds.beehiiv.com/180c3a9d-ec5e-4350-b35e-976cb7c185d4?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0 auto; border-radius: 0px !important; background-color: transparent; margin-top: 20px;"></iframe>  
   </div>
 
@@ -29,7 +29,7 @@
               $query->the_post();
           ?> 
             <li class="flex justify-between items-center font-inter text-lg/10 border-b-gray-200 dark:border-b-gray-600 dark:sm:border-b-gray-600 border-b-2 border-dashed sm:border-none mb-2">
-              <a href="<?php echo get_the_permalink(); ?>" class="sm:border-b-gray-200 transition hover:sm:border-b-gray-300 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600 hover:dark:sm:border-b-gray-500"><?php echo get_the_title(); ?></a> 
+              <a href="<?php echo get_the_permalink(); ?>" class="sm:border-b-gray-200 transition hover:sm:border-b-gray-300 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600 hover:dark:sm:border-b-gray-500 truncate"><?php echo get_the_title(); ?></a> 
               <span class="hidden sm:block text-gray-600"><?php echo get_the_date('M j, Y'); ?></span>
             </li> 
           <?php 
