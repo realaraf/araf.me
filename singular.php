@@ -8,9 +8,9 @@ if ( have_posts() ) :
     <article>
         <h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide"><?php echo get_the_title(); ?></h1>
         <p class="font-inter text-lg/10 text-gray-600">Published on <?php echo get_the_date('M j, Y'); ?></p>
-        <?php if(get_the_post_thumbnail_url()){ ?>
-            <img src="<?php echo get_the_post_thumbnail_url(); ?>">
-        <?php } ?>
+        <?php //if(get_the_post_thumbnail_url()){ ?>
+            <!-- img src="<?php //echo get_the_post_thumbnail_url(); ?>" -->
+        <?php //} ?>
         <?php the_content(); ?>
     </article>    
 <?php
