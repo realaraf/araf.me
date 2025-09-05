@@ -20,7 +20,7 @@
     <div class="flex items-center space-x-3">
       <nav class="flex space-x-2 text-base">
         <!-- <a href="#" class="hover:underline">Home</a> -->
-        <a href="<?php echo get_site_url() . "/notes"; ?>" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600">Notes</a>
+        <a href="<?php echo get_site_url() . "/blog"; ?>" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600">Blog</a>
       </nav>
 
       <!-- Dark/Light Switch -->
