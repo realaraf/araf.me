@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide">Blog Posts</h1>
+<h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide">My Notes</h1>
 
 <!-- Post Loop Start -->
 <?php 
