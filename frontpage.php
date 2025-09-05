@@ -91,7 +91,7 @@ console.table(users)
     <iframe src="https://embeds.beehiiv.com/180c3a9d-ec5e-4350-b35e-976cb7c185d4?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0 auto; border-radius: 0px !important; background-color: transparent; margin-top: 20px;"></iframe>  
   </div>
 
-  <h1 class="mt-12 mb-4 text-[min(7.5vw,36px)] leading-[1] font-bold font-bebas-neue tracking-wide">Blog Posts</h1>
+  <h1 class="mt-12 mb-4 text-[min(7.5vw,36px)] leading-[1] font-bold font-bebas-neue tracking-wide">My Notes</h1>
   <?php
     if ( is_front_page() ) { // ensures this runs only on the front page
       $args = array(
