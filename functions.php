@@ -49,12 +49,12 @@ function my_theme_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
-function mytheme_add_tailwind_classes($content) {
-    if (is_singular() && in_the_loop() && is_main_query()) {
+//function mytheme_add_tailwind_classes($content) {
+    //if (is_singular() && in_the_loop() && is_main_query()) {
         // Add Tailwind classes to <p> tags
         // $content = preg_replace('/<p([^>]*?)>/', '<p$1 class="my-4 text-lg/8 font-inter">', $content);
 		//$content = preg_replace('/<a([^>]*?)>/', '<a$1 class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">', $content);
-    }
-    return $content;
-}
-add_filter('the_content', 'mytheme_add_tailwind_classes');
+    //}
+    //return $content;
+//}
+//add_filter('the_content', 'mytheme_add_tailwind_classes');
