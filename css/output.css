@@ -204,6 +204,12 @@
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
+  .ms-0 {
+    margin-inline-start: calc(var(--spacing) * 0);
+  }
+  .me-2 {
+    margin-inline-end: calc(var(--spacing) * 2);
+  }
   .me-2\.5 {
     margin-inline-end: calc(var(--spacing) * 2.5);
   }
@@ -240,6 +246,9 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
@@ -257,6 +266,15 @@
   }
   .max-w-\[800px\] {
     max-width: 800px;
+  }
+  .table-auto {
+    table-layout: auto;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
   }
   .items-center {
     align-items: center;
@@ -291,6 +309,10 @@
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-2 {
     border-style: var(--tw-border-style);
@@ -352,8 +374,14 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
+  .ps-0 {
+    padding-inline-start: calc(var(--spacing) * 0);
+  }
   .ps-1 {
     padding-inline-start: calc(var(--spacing) * 1);
+  }
+  .pt-1 {
+    padding-top: calc(var(--spacing) * 1);
   }
   .pt-1\.5 {
     padding-top: calc(var(--spacing) * 1.5);
@@ -442,6 +470,13 @@
   }
   .text-yellow-900 {
     color: var(--color-yellow-900);
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
@@ -675,6 +710,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -683,6 +723,7 @@
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
+      --tw-outline-style: solid;
     }
   }
 }
