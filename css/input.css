@@ -45,7 +45,10 @@
     }
   }
   article {
-    h1, h2, p, ul, hr, table, .alert, .posts, img, pre {
+    pre {
+      @apply max-w-[800px] mx-auto! mb-6!;
+    }
+    h1, h2, p, ul, hr, table, .alert, .posts, img {
       @apply max-w-[800px] mx-auto;
     }
     h1.full, h2.full, p.full, ul.full, hr.full, table.full, .alert.full, .posts.full, img.full, pre.full {
