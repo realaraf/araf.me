@@ -100,7 +100,7 @@ console.table(users)
       $query = new WP_Query( $args );
 
       if ( $query->have_posts() ) {
-          echo '<ul>';
+          echo '<ul class="ps-0">';
           while ( $query->have_posts() ) {
               $query->the_post();
           ?> 
