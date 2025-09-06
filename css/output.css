@@ -599,6 +599,7 @@
     }
   }
   hr {
+    margin-bottom: calc(var(--spacing) * 6);
     border-top-style: var(--tw-border-style);
     border-top-width: 2px;
     --tw-border-style: dashed;
