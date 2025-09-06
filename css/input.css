@@ -5,4 +5,13 @@
   --font-bebas-neue: "Bebas Neue", sans-serif;
 }
 
+@layer base {
+  hr {
+    @apply border-t-2 border-dashed border-gray-200 dark:border-gray-600;
+  }
+  ul {
+    @apply list-disc ps-5 font-inter text-lg/8;
+  }
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
