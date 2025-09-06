@@ -1,4 +1,4 @@
-<footer>
+  <footer class="max-w-[800px] mx-5 sm:mx-auto ">
     <p class="mt-12 mb-5 font-inter text-sm text-gray-500 dark:text-gray-400">© <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. Built with ❤️ using <a href="https://tailwindcss.com" class="sm:border-b-gray-200 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600">Tailwind CSS</a>, <a href="https://wp.org/" class="sm:border-b-gray-200 sm:border-b-2 sm:border-dashed dark:sm:border-b-gray-600">WordPress</a>.</p>
   </footer>
 

@@ -11,8 +11,8 @@
   <link id="themeStylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism.min.css">
   <?php wp_head(); ?>
 </head>
-<body class="max-w-[800px] mx-5 sm:mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
-  <header class="flex items-center justify-between py-4">
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
+  <header class="max-w-[800px] mx-5 sm:mx-auto flex items-center justify-between py-4">
     <!-- Left: Name -->
     <a href="<?php bloginfo( 'home' ); ?>"><h1 class="text-[min(10vw,32px)] font-bold font-bebas-neue flex items-center" title="John Doe"><img src="<?php echo get_template_directory_uri() . "/img/araf.jpg"; ?>" class="w-10 h-10 rounded-lg mr-2" alt=""> <span class="pt-1.5 tracking-wide ps-1"><?php bloginfo( 'name' ); ?></span></h1></a>
 

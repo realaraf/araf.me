@@ -3,6 +3,8 @@
   get_header(); 
 ?>
 
+<div class="max-w-[800px] mx-5 sm:mx-auto">
+
 <h1 class="mt-10 mb-4 text-[min(10vw,48px)] leading-[1] font-bold font-bebas-neue tracking-wide">Shopify & WordPress Developer</h1>
   <p class="mt-4 text-lg sm:text-2xl font-inter leading-9">Hey! I'm Md. Araful Karim (Araf). I develope high-quality Shopify ecommerce and WordPress sites. All of my open source works are publicly available on <a href="https://github.com/realaraf" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">GitHub</a>. You can connect/contact me on <a href="https://www.linkedin.com/in/realaraf/" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">LinkedIn</a> or <a href="https://calendly.com/meet_araf/30min" target="_blank" class="border-b-gray-200 dark:border-b-gray-600 border-b-2 border-dashed transition hover:bg-gray-200 dark:hover:bg-gray-600">schedule a meeting</a> for project discussion.</p>
 
@@ -15,76 +17,70 @@ console.table(users)
 </code></pre>
 
   <!-- Info Boxes: Default -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-gray-200 dark:border-gray-600 rounded-[6px] bg-gray-50 dark:bg-gray-800">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 py-2 sm:pt-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-gray-200 dark:border-gray-600 rounded-[6px] bg-gray-50 dark:bg-gray-800 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 text-gray-900 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
 
   <!-- Info Boxes: Blue -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-blue-200 rounded-[6px] text-blue-900 bg-blue-50">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-blue-200 rounded-[6px] text-blue-900 bg-blue-50 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
 
   <!-- Info Boxes: Red -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-red-200 rounded-[6px] text-red-900 bg-red-50">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-red-200 rounded-[6px] text-red-900 bg-red-50 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
 
   <!-- Info Boxes: Yellow -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-yellow-200 rounded-[6px] text-yellow-900 bg-yellow-50">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-yellow-200 rounded-[6px] text-yellow-900 bg-yellow-50 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
 
   <!-- Info Boxes: Green -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-green-200 rounded-[6px] text-green-900 bg-green-50">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-green-200 rounded-[6px] text-green-900 bg-green-50 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
 
   <!-- Info Boxes: Gray -->
-  <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-gray-200 rounded-[6px] text-gray-900 bg-gray-50">
-    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6">
-      <svg class="mt-0.25 me-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      width="28" style="height:fit-content;" role="img" aria-label="Info">
+  <!-- <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-8 px-3 sm:px-9 border-2 border-dashed border-gray-200 rounded-[6px] text-gray-900 bg-gray-50 items-center">
+    <p class="flex mt-0 sm:mt-4 text-lg font-inter leading-6 items-center sm:items-start">
+      <svg class="mt-0.25 me-2.5 sm:me-1.5 w-[40px] sm:w-[28px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height:fit-content;" role="img" aria-label="Info">
         <title>Info</title>
         <circle cx="12" cy="12" r="10" fill="currentColor"/>
         <rect x="11" y="10" width="2" height="6" fill="white"/>
         <circle cx="12" cy="7.5" r="1" fill="white"/>
       </svg>Note: You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p> 
-  </div>
+  </div> -->
   
   <div class="mt-12 pt-2 sm:pt-4 pb-4 sm:pb-11 px-3 sm:px-12 text-center border-2 border-dashed border-gray-200 rounded-[6px] bg-gray-50 dark:bg-gray-800 dark:border-gray-600">
     <p class="mt-0 sm:mt-4 text-lg sm:text-2xl font-inter leading-9">You can subscribe my newsletter to ger real-life web development tips and resources, directly to your inbox.</p>
@@ -153,5 +149,7 @@ console.table(users)
       </a>
     </li>
   </ul -->
+
+</div>
 
 <?php get_footer(); ?>
