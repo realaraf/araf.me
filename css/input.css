@@ -44,6 +44,14 @@
       @apply border-none;
     }
   }
+  article {
+    h1, h2, p, ul, hr, table, .alert, .posts, img {
+      @apply max-w-[800px] mx-auto;
+    }
+    h1.full, h2.full, p.full, ul.full, hr.full, table.full, .alert.full, .posts.full, img.full {
+      @apply max-w-[1200px] mx-auto;
+    }
+  }
   table {
     @apply w-full table-auto border-collapse text-lg/8 border-2 border-dashed border-gray-200 dark:border-gray-600 font-inter;
     thead {
