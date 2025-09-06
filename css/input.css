@@ -65,6 +65,9 @@
     tbody {
       tr {
         @apply hover:bg-gray-50 dark:hover:bg-gray-700;
+        th {
+          @apply bg-gray-100 dark:bg-gray-800 px-4 py-2 text-left font-medium text-gray-700 dark:text-gray-200 border-2 border-dashed border-gray-200 dark:border-gray-600;
+        }
         td {
           @apply px-4 py-2 border-2 border-dashed border-gray-200 dark:border-gray-600;
         }
