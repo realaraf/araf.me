@@ -5,7 +5,7 @@
 if ( have_posts() ) :
     while ( have_posts() ) : the_post();
 ?>
-    <article class="max-w-[<?php echo get_field("post_full_width_true") == "1" ? "1320px" : "800px"; ?>] mx-5 sm:mx-auto">
+    <article class="mx-5 sm:mx-auto">
         <h1><?php echo get_the_title(); ?></h1>
         <p class="text-gray-600">Published on <?php echo get_the_date('M j, Y'); ?></p>
         <?php //if(get_the_post_thumbnail_url()){ ?>
