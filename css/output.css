@@ -248,6 +248,9 @@
   .max-w-\[800px\] {
     max-width: 800px;
   }
+  .max-w-\[1320px\] {
+    max-width: 1320px;
+  }
   .items-center {
     align-items: center;
   }
