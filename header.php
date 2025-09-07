@@ -6,8 +6,10 @@
   <meta property="og:image" content="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : get_template_directory_uri() . '/img/araf_me.jpg'; ?>" />
     <?php if(is_front_page()){ ?>
 	<meta property="og:title" content="Araf" />
+	<meta property="og:description" content="Shopify & WordPress Developer" />
   <?php }elseif(is_single()){ ?>
 	<meta property="og:title" content="<?php echo get_the_title(); ?> by Araf" />
+	<meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
   <?php } ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
