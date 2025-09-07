@@ -4,7 +4,11 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : get_template_directory_uri() . '/img/araf_me.jpg'; ?>" />
-  <meta property="og:title" content="<?php echo !is_front_page(get_the_title() . " by "); ?>Araf" />
+    <?php if(is_front_page()){ ?>
+	<meta property="og:title" content="Araf" />
+  <?php }elseif(is_single()){ ?>
+	<meta property="og:title" content="<?php echo get_the_title(); ?> by Araf" />
+  <?php } ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
