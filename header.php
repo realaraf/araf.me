@@ -4,12 +4,12 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : get_template_directory_uri() . '/img/araf_me.jpg'; ?>" />
-    <?php if(is_front_page()){ ?>
+  <?php if(is_front_page()){ ?>
 	<meta property="og:title" content="Araf" />
-	<meta property="og:description" content="Shopify & WordPress Developer" />
+  <meta property="og:description" content="Shopify & WordPress Developer" />
   <?php }elseif(is_single()){ ?>
 	<meta property="og:title" content="<?php echo get_the_title(); ?> by Araf" />
-	<meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
+  <meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
   <?php } ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +23,11 @@
     <a href="<?php bloginfo( 'home' ); ?>"><h1 class="text-[min(10vw,32px)] font-bold font-bebas-neue flex items-center" title="John Doe"><img src="<?php echo get_template_directory_uri() . "/img/araf.jpg"; ?>" class="w-10 h-10 rounded-lg mr-2" alt=""> <span class="pt-1.5 tracking-wide ps-1"><?php bloginfo( 'name' ); ?></span></h1></a>
 
     <!-- Right: Menu + Toggle -->
-    <div class="flex items-center space-x-3">
+    <div class="flex items-center space-x-3 mt-6 sm:mt-3">
       <nav class="flex space-x-2 text-base">
         <!-- <a href="#" class="hover:underline">Home</a> -->
-        <a href="<?php echo get_site_url() . "/blog"; ?>" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600">Blog</a>
+        <a href="<?php echo get_site_url() . "/blog"; ?>" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600 me-5">Blog</a>
+        <a href="<?php echo get_site_url() . "/links"; ?>" class="border-b-gray-200 border-b-2 border-dashed dark:border-b-gray-600 font-inter transition hover:bg-gray-200 dark:hover:bg-gray-600">Links</a>
       </nav>
 
       <!-- Dark/Light Switch -->
