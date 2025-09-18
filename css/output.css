@@ -227,6 +227,15 @@
   .mt-0\.25 {
     margin-top: calc(var(--spacing) * 0.25);
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
@@ -436,6 +445,16 @@
   .sm\:me-1\.5 {
     @media (width >= 40rem) {
       margin-inline-end: calc(var(--spacing) * 1.5);
+    }
+  }
+  .sm\:mt-0 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .sm\:mt-3 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 3);
     }
   }
   .sm\:mt-4 {
