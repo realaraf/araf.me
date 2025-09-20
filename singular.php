@@ -30,29 +30,36 @@ endif;
 
     <h2>You may also like</h2>
     <?php
-        $args = array(
-            'post_type'      => 'post',   // get regular posts
-            'posts_per_page' => 5,        // number of posts to display
-            'orderby'        => 'date',
-            'order'          => 'DESC'
-        );
+    $args = array(
+        'post_type'      => 'post',
+        'posts_per_page' => 100,
+        'orderby'        => 'date',
+        'order'          => 'DESC',
+    );
 
-        $query = new WP_Query( $args );
+    $query = new WP_Query( $args );
 
-        if ( $query->have_posts() ) {
-            echo '<ul class="ps-0 posts">';
-            while ( $query->have_posts() ) {
-                $query->the_post();
-            ?> 
+    if ( $query->have_posts() ) {
+        echo '<ul class="ps-0 posts">';
+        while ( $query->have_posts() ) {
+            $query->the_post();
+            $format = get_post_format();
+
+            // For standard posts, get_post_format() returns false
+            if ( ! $format || $format === 'standard' ) : 
+        ?>
             <li>
-                <a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a> 
-                <span><?php echo get_the_date('M j, Y'); ?></span>
-            </li> 
-            <?php 
-            }
-            echo '</ul>';
-            wp_reset_postdata();
+                <a href="<?php echo esc_url( get_permalink() ); ?>">
+                    <?php echo esc_html( get_the_title() ); ?>
+                </a>
+                <span><?php echo esc_html( get_the_date( 'M j, Y' ) ); ?></span>
+            </li>
+        <?php 
+            endif;
         }
+        echo '</ul>';
+        wp_reset_postdata();
+    }
     ?>
 </div>
 
